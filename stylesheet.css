@@ -1,0 +1,92 @@
+body {
+  padding-top: 60px;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.container {
+  padding-top: 5px;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: black;
+  color: white;
+}
+
+.img-circle {
+    border-radius: 15%;
+}
+
+.list-group-item {
+    /* border-color: black;
+    border-width: thin; */
+}
+
+#footer {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#mynav {
+  padding: 0;
+  padding-left: 10px;
+  background-color: black;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#btn-teal {
+  background-color: #59BBBF;
+  border-color: #59BBBF;
+  color: white;
+  font-weight: bold;
+}
+
+#btn-teal-outline {
+  background-color: white;
+  border-color: #64d4d6;
+  color: #64d4d6;
+  font-weight: bold;
+}
+
+#btn-teal-outline:hover {
+  background-color: #64d4d6;
+  border-color: black;
+  border-width: medium;
+  color: white;
+  font-weight: bold;
+}
+
+#index-btn {
+  margin-left: 60px;
+}
+
+#list-group-item {
+  background-color: #59BBBF;
+  /* border-color: black;
+  border-width: think; */
+  color: white;
+  font-weight: bold;
+}
+
+#iframe-goals {
+  height: 615px;
+  width: 1010px;
+  display: inline-block;
+}
+
+#iframe-goals-ctr {
+  text-align: center;
+}

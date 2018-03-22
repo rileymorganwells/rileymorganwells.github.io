@@ -1,45 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Test Page: Don't Panic</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <style>
-      a {
-        color: red;
-      }
-      div {
-        border: 1px solid black;
-      }
-      div a {
-        color: pink;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Riley Wells | Home</title>
+     <link rel="shortcut icon" type="favicon.ico" href="favicon.ico"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <h1>I'm an h1</h1>
-    <ul>
-      <li>
-        <a href="http://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="http://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="http://example.com/">Link</a>
-      </li>
-    </ul>
-    <h2>I'm an h2</h2>
-    <div>
-      <a href="http://example.com/">I'm a link</a>
-    </div>
-    <div>
-      <a href="http://example.com/">I'm a link</a>
-    </div>
-    <div>
-      <a href="http://example.com/">I'm a link</a>
-    </div>
-    <div>
-      <a href="http://example.com/">I'm a link</a>
-    </div>
+    <nav id="mynav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a style="font-size: 30px" class="navbar-brand">
+          <img style="height: 50px; width: 50px;" alt="Brand" src="Images/brandimage.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="interests.html">Interests</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <div class="container">
+    <div class="jumbotron">
+        <h1>Hi, I'm Riley!</h1></br>
+              <div class="row">
+                  <div class="col-md-4">
+                    <img class="img-fluid img-circle" src="Images/Portrait.jpg" >
+                  </div>
+                  <div class="col-md-8">
+                    <p>I am currently studying information systems at BYU and plan to graduate with my Master of Information
+                      Systems Management in April 2020. I believe in the power of technology to drive change, and will be
+                      focusing my studies on developing technology solutions. My minors and emphases are in computer science and
+                      development, social innovation/entrepreneurship, and nonprofit management. I believe that business is a strong conduit
+                      for doing good and I plan to build a career where I can use technology and business tools to create social impact.</p>
+                    <p>I have accepted a summer internship opportunity to work as an IT Automation Developer at Zions Bancorporation and
+                      I am thrilled to be joining their team!</p>
+                    </br>
+                      <p id="index-btn"><a href="resume.html"><button id="btn-teal" class="btn btn-lg">Check Out My Resume!</button></a></p>
+                  </div>
+              </div>
+        </div>
+      </div>
+
+      <div id="iframe-goals-ctr" class="container">
+        <iframe id="iframe-goals" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvRqynftxJPgXbCPRJ8iEZmAt6ntwVUbXhsRnkjW-y5HYaq5IuIxWtZi7Sqkhgxd287KwL3ZNiujjw/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      </div>
+
+      <footer id="footer">
+        <hr />
+          <div class="container">
+            <div>
+              Riley Wells ©
+              <script type="text/javascript">
+                document.write(new Date().getFullYear());
+              </script>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/rileymwells/" target="_blank"> <img src="Images/linkedin_icon.png"></a>
+                <a href="https://twitter.com/Riley__Wells" target="_blank"><img src="Images/twitter_icon.png"></a>
+                <a href="https://www.facebook.com/riley.wells.332" target="_blank"><img src="Images/facebook_icon.png"></a>
+                <a href="https://www.youtube.com/channel/UCDUJpqu1Qr6C_E4VbE83vog" target="_blank"><img src="Images/youtube_icon.png"></a>
+                <a href="https://www.instagram.com/ravishingriley/" target="_blank"><img src="Images/insta_icon.png"></a>
+            </div>
+          </div>
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -3,9 +3,20 @@ body {
 }
 
 h1 {
-  font-family: 'Indie Flower', cursive;
-  font-size: 80px;
+  font-family: 'Righteous', cursive;
+  font-size: 70px;
   font-weight: bold;
+}
+
+h2 {
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Righteous', cursive;
+  color: #515151;
 }
 
 .container {
@@ -16,34 +27,28 @@ h1 {
   text-align: center;
 }
 
-.jumbotron {
-  background-color: black;
-  color: white;
-}
-
 .img-circle {
     border-radius: 15%;
 }
 
 #footer {
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Righteous', cursive;
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 30px;
 }
 
 #mynav {
-  padding: 0;
-  padding-left: 10px;
-  background-color: black;
-  font-family: 'Indie Flower', cursive;
+  padding: 0px;
+  background-color: white;
+  font-family: 'Righteous', cursive;
   font-weight: bold;
   font-size: 20px;
 }
 
 #btn-teal {
-  background-color: #59BBBF;
+  background-color: black;
   border-color: #59BBBF;
   color: white;
   font-weight: bold;
@@ -96,4 +101,47 @@ h1 {
   opacity:0.5;
   z-index: 100;
   display: block;
+}
+
+#index-jumbo {
+  background-color: #59BBBF;
+}
+
+.brand-pic {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.navbar-brand {
+  padding-bottom: 5px;
+}
+
+a.navbar-brand {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.container {
+  padding-top: 0px;
+}
+
+a.nav-link {
+  padding-top: 14px;
+}
+
+.tech-img {
+  max-height: 100px;
+}
+
+.tech {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 25px;
+}
+
+.col-md-4 {
+  padding: 5px;
 }

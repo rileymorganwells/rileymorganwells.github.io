@@ -8,22 +8,28 @@
      <link rel="shortcut icon" type="favicon.ico" href="favicon.ico"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="scripts.js"></script>
   </head>
   <body>
-    <nav id="mynav" class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a style="font-size: 30px" class="navbar-brand">
-          <img style="height: 50px; width: 50px;" alt="Brand" src="Images/brandimage.png">
-      </a>
+    <nav id="mynav" class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mx-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+              <a class="navbar-brand" href="index.html">
+                  <img class="brand-pic" alt="Brand" src="Images/brandimage.png">
+              </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="resume.html">Resume</a>
@@ -33,32 +39,112 @@
           </li>
         </ul>
       </div>
+      </div>
     </nav>
 
-  <div class="container">
-    <div class="jumbotron">
-        <h1>Hi, I'm Riley!</h1></br>
-              <div class="row">
-                  <div class="col-md-4">
-                    <img class="img-fluid img-circle" src="Images/Portrait.jpg" >
-                  </div>
-                  <div class="col-md-8">
-                    <p>I am currently studying information systems at BYU and plan to graduate with my Master of Information
-                      Systems Management in April 2020. I believe in the power of technology to drive change, and will be
-                      focusing my studies on developing technology solutions. My minors and emphases are in computer science and
-                      development, social innovation/entrepreneurship, and nonprofit management. I believe that business is a strong conduit
-                      for doing good and I plan to build a career where I can use technology and business tools to create social impact.</p>
-                    <p>I have accepted a summer internship opportunity to work as an IT Automation Developer at Zions Bancorporation and
-                      I am thrilled to be joining their team!</p>
-                    </br>
-                      <p id="index-btn"><a href="resume.html"><button id="btn-teal" class="btn btn-lg">Check Out My Resume!</button></a></p>
-                  </div>
+  <div class="jumbotron" id="index-jumbo">
+    <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                  <h1>Hi! I'm Riley,</h1>
+                  <h2>and I'm a builder.</h2>
+                  <h3>As a child, I built legos.</h3>
+                  <h3>I currently build houses with Habitat for Humanity</h3>
+                  <h3>I'm building a career in development, and I love to build technology solutions - apps, websites, software - you name it.</h3>
+                  <!-- <p>I am currently studying information systems at BYU and plan to graduate with my Master of Information
+                    Systems Management in April 2020. I believe in the power of technology to drive change, and will be
+                    focusing my studies on developing technology solutions. My minors and emphases are in computer science and
+                    development, social innovation/entrepreneurship, and nonprofit management. I believe that business is a strong conduit
+                    for doing good and I plan to build a career where I can use technology and business tools to create social impact.</p>
+                  <p>I have accepted a summer internship opportunity to work as an IT Automation Developer at Zions Bancorporation and
+                    I am thrilled to be joining their team!</p> -->
+                  </br>
+                    <p id="index-btn"><a href="resume.html"><button id="btn-teal" class="btn btn-lg">Check Out My Resume!</button></a></p>
+                </div>
+                <div class="col-md-7">
+                  <img class="img-fluid img-circle" src="Images/Portrait.jpg" >
+                </div>
+            </div>
+            <h2>Technologies I Know and Use</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="tech">
+                  <h3>Amazon Web Services</h3>
+                  <img class="img-fluid tech-img" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/AmazonWebservices_Logo.svg" alt="AWS Logo"/>
+                  <h4>This is what I've done with this technology:</h4>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
               </div>
-        </div>
-      </div>
-
-      <div id="iframe-goals-ctr" class="container">
-        <iframe id="iframe-goals" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvRqynftxJPgXbCPRJ8iEZmAt6ntwVUbXhsRnkjW-y5HYaq5IuIxWtZi7Sqkhgxd287KwL3ZNiujjw/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+              <div class="col-md-4">
+                <div class="tech">
+                  <h3>HTML, CSS, JavaScript</h3>
+                  <img class="img-fluid tech-img" src="https://cdn-images-1.medium.com/max/750/1*pixFq7k28LKsABpDNRCjJw.png" alt="HTML, CSS, Javascript"/>  
+                  <h4>This is what I've done with this technology:</h4>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="tech">
+                  <h3>Version Control/Collab</h3>
+                  <img class="img-fluid tech-img" src="http://honeyd.github.io/images/Git-Logo-White.png" alt="Git"/>
+                  <img class="img-fluid tech-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/900px-Octicons-mark-github.svg.png" alt="Github"/>  
+                  <h4>This is what I've done with this technology:</h4>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="tech">
+                  <h3>Microsoft ASP.NET</h3>
+                  <img class="img-fluid tech-img" src="https://www.asphostcentral.com/Images/logo_aspmvc345.png" alt="Microsoft ASP.NET"/>
+                  <h4>This is what I've done with this technology:</h4>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="tech">
+                  <h3>django web framework</h3>
+                  <img class="img-fluid tech-img" src="https://www.hiresoftwareexperts.com/wp-content/uploads/2017/12/django-python.png" alt="django"/>  
+                  <h4>This is what I've done with this technology:</h4>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="tech">
+                  <h3>Databases</h3>
+                  <img class="img-fluid tech-img" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/186px-MySQL.svg.png" alt="MySQL"/>
+                  <img class="img-fluid tech-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/180px-Postgresql_elephant.svg.png" alt="Postgres"/>  
+                  <h4>This is what I've done with this technology:</h4>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
 
       <footer id="footer">

@@ -52,6 +52,12 @@ h3 {
   border-color: #59BBBF;
   color: white;
   font-weight: bold;
+  margin-left: 60px;
+}
+
+#btn-teal:hover {
+  background-color: white;
+  color: black;
 }
 
 #btn-teal-outline {
@@ -67,10 +73,6 @@ h3 {
   border-width: medium;
   color: white;
   font-weight: bold;
-}
-
-#index-btn {
-  margin-left: 60px;
 }
 
 #list-group-item {
@@ -142,6 +144,41 @@ a.nav-link {
   border-radius: 25px;
 }
 
+.tech-portfolio > h3 {
+  padding-top: 10px;
+  color: black;
+}
+
+.tech-portfolio {
+  color: black;
+  text-align: center;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: black;
+}
+
+.img-portfolio {
+  padding: 10px;
+  border-radius: 5%;
+  max-height: 90%;
+}
+
 .col-md-4 {
   padding: 5px;
 }
+
+#portfolio-jumbo {
+  padding-top: 20px;
+}
+
+#img-portrait {
+  border: solid #fff 5px;
+}
+
+#tech-rows-header {
+  margin: 40px 0px 20px 0px;
+  text-align: center;
+}
+
+

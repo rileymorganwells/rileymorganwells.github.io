@@ -6,32 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Riley Wells | Resume</title>
     <link rel="shortcut icon" type="favicon.ico" href="favicon.ico"/>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <!-- CSS Links: Bootstrap, Google Fonts, and custom CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="Styles/mobilestyles.css">
   </head>
   <body>
-
-    <nav id="mynav" class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a style="font-size: 30px" class="navbar-brand" href="index.html">
-          <img style="height: 50px; width: 50px;" alt="Brand" src="Images/brandimage.png">
-      </a>
+    <nav id="mynav" class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mx-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item" id='brand'>
+              <a class="navbar-brand" href="index.html">
+                  <img class="brand-pic" alt="Brand" src="Images/brandimage.png">
+              </a>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Resume<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="interests.html">Interests</a>
           </li>
         </ul>
+      </div>
       </div>
     </nav>
 

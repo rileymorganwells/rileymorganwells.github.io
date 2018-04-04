@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+    .tech-portfolio { 
+        display: block;
+        width: 100%;
+    }
+    #brand { 
+        display: none;
+        visibility: hidden;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+      }
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    br {
+        display: none;
+    }
+    #btn-teal {
+        text-align: center;
+        align-content: center;
+        margin: 20px 0px 20px 0px;
+    }
+  }

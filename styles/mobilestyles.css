@@ -18,9 +18,12 @@
     br {
         display: none;
     }
-    #btn-teal {
+    #btn-port {
         text-align: center;
         align-content: center;
         margin: 20px 0px 20px 0px;
+    }
+    #div-intro {
+        padding-top: 0px;
     }
   }

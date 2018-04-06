@@ -47,7 +47,7 @@ h3 {
   font-size: 20px;
 }
 
-#btn-teal {
+#btn-port {
   background-color: black;
   border-color: #59BBBF;
   color: white;
@@ -55,19 +55,19 @@ h3 {
   margin-left: 60px;
 }
 
-#btn-teal:hover {
+#btn-port:hover {
   background-color: white;
   color: black;
 }
 
-#btn-teal-outline {
+#btn-port-outline {
   background-color: white;
   border-color: #64d4d6;
   color: #64d4d6;
   font-weight: bold;
 }
 
-#btn-teal-outline:hover {
+#btn-port-outline:hover {
   background-color: #64d4d6;
   border-color: black;
   border-width: medium;
@@ -107,6 +107,7 @@ h3 {
 
 #index-jumbo {
   background-color: #59BBBF;
+  padding-top: 20px;
 }
 
 .brand-pic {
@@ -174,6 +175,7 @@ a.nav-link {
 
 #img-portrait {
   border: solid #fff 5px;
+  display: none;
 }
 
 #tech-rows-header {
@@ -181,4 +183,6 @@ a.nav-link {
   text-align: center;
 }
 
-
+#div-intro {
+  padding-top: 85px;
+}

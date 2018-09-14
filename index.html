@@ -14,11 +14,10 @@
   </head>
   <body>
     <nav id="mynav" class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <div class="container" id="nav-container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home</a>
@@ -26,16 +25,22 @@
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
           <li class="nav-item" id="brand">
-              <a class="navbar-brand" href="index.html">
+              <a class="navbar-brand mx-auto" href="index.html">
                   <img class="brand-pic" alt="Brand" src="images/brandimage.png">
               </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="resume.html">Resume</a>
+            <a class="nav-link" href="impact.html">Impact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="interests.html">Interests</a>
+            <a class="nav-link" href="interests.html">Passions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -45,97 +50,91 @@
   <div class="jumbotron" id="index-jumbo">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 mx-auto text-center">
-            <h1 class="text-center"><span id="type-writer-heading">Hi, I'm Riley!</span></h1>
-          <img class="img-fluid img-circle center-block" id='img-portrait' src="images/color-portrait.JPG" />
+        <div id="div-intro" class="text-center col-md-5">
+          <img class="img-fluid" id="img-portrait-mobile" src="images/color-portrait.JPG"> 
+          <h1 id="hi-header">Hi! I'm Riley,</h1>
+          <h2>and I'm a builder.</h2>
+          <h4>I work full time as an automation developer at Zions Bancorporation in Salt Lake City, Utah.</h4>
+          <hr/>
+          <h4>I'm a student in the Master of Information Systems program at BYU, and will graduate in April 2020.</h4>
+          <hr/>
+          <h4>I also work as a freelance full stack web developer - so let's build something amazing together!</h4>
+          <div class="text-center"><a href="portfolio.html" id="btn-index" class="btn btn-primary btn-lg">My Portfolio</a></div>
+        </div>
+        <div class="col-md-7">
+          <img class="img-fluid img-circle" id="img-portrait" src="images/color-portrait.JPG">
         </div>
       </div>
-          <h2 class="typewrite text-center" data-period="2000" data-type='[ "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
-            <span class="wrap"></span>
-          </h2>
-          <div class="text-center"><a href="portfolio.html" id="btn-index" class="btn btn-primary btn-lg">My Portfolio</a></div>
-            <h2 id='tech-rows-header'>Technologies I Know and Use</h2>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="tech">
-                  <h3>Amazon Web Services</h3>
-                  <img class="img-fluid tech-img" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/AmazonWebservices_Logo.svg" alt="AWS Logo"/>
-                  <h4>This is what I've done with this technology:</h4>
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="tech">
-                  <h3>HTML, CSS, JavaScript</h3>
-                  <img class="img-fluid tech-img" src="https://cdn-images-1.medium.com/max/750/1*pixFq7k28LKsABpDNRCjJw.png" alt="HTML, CSS, Javascript"/>  
-                  <h4>This is what I've done with this technology:</h4>
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="tech">
-                  <h3>Version Control/Collab</h3>
-                  <img class="img-fluid tech-img" src="http://honeyd.github.io/images/Git-Logo-White.png" alt="Git"/>
-                  <img class="img-fluid tech-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/900px-Octicons-mark-github.svg.png" alt="Github"/>  
-                  <h4>This is what I've done with this technology:</h4>
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="tech">
-                  <h3>Microsoft ASP.NET</h3>
-                  <img class="img-fluid tech-img" src="https://www.asphostcentral.com/images/logo_aspmvc345.png" alt="Microsoft ASP.NET"/>
-                  <h4>This is what I've done with this technology:</h4>
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="tech">
-                  <h3>django web framework</h3>
-                  <img class="img-fluid tech-img" src="https://www.hiresoftwareexperts.com/wp-content/uploads/2017/12/django-python.png" alt="django"/>  
-                  <h4>This is what I've done with this technology:</h4>
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="tech">
-                  <h3>Databases</h3>
-                  <img class="img-fluid tech-img" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/186px-MySQL.svg.png" alt="MySQL"/>
-                  <img class="img-fluid tech-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/180px-Postgresql_elephant.svg.png" alt="Postgres"/>  
-                  <h4>This is what I've done with this technology:</h4>
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+      <hr/>
+    <h2 id='tech-rows-header'>Technologies I Use</h2>
+      <div class="card-deck">
+        <div class="card text-white bg-primary mb-3 tech">
+          <div class="card-header"><h3>HTML, CSS, JavaScript</h3></div>
+          <div class="card-body">
+            <img class="img-fluid tech-img" src="images/htmlEtAl.png" alt="HTML, CSS, JS, Bootstrap"/>
+            <!-- <h5 class="card-title">What I've done with this technology</h5>
+            <p class="card-text">
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </p> -->
+            <a href="https://rileymorganwells.github.io/WestworldQuiz/" target="_blank" class="btn btn-dark btn-lg btn-card-font">Basic JS Page</a>
           </div>
+        </div>
+        <div class="card text-white bg-dark mb-3 tech">
+            <div class="card-header"><h3>Amazon Web Services</h3></div>
+            <div class="card-body">
+              <img class="img-fluid tech-img" src="images/awsWhite.png" alt="AWS Logo"/>
+              <a href="https://aws.amazon.com/" target="_blank" class="btn btn-primary btn-lg btn-card-font">Checkout AWS</a>
+            </div>
+        </div>
+        <div class="card text-white bg-primary mb-3 tech">
+          <div class="card-header"><h3>Version Control/Collab</h3></div>
+            <div class="card-body">
+            <img class="img-fluid tech-img" src="images/git.png" alt="Git"/>
+            <img class="img-fluid tech-img" src="images/github.png" alt="Github"/>
+            <a href="https://github.com/rileymorganwells" target="_blank" class="btn btn-dark btn-lg btn-card-font">My Repository</a>
+          </div>
+        </div>
       </div>
 
+      <div class="card-deck">
+        <div class="card text-white bg-dark mb-3 tech">
+          <div class="card-header"><h3>Python/django</h3></div>
+          <div class="card-body">
+            <img class="img-fluid tech-img" src="images/python.png" alt="Python"/>
+            <img class="img-fluid tech-img" src="images/django.png" alt="django"/>
+            <a href="https://my-fomo-app.herokuapp.com/" target="_blank" class="btn btn-primary btn-lg btn-card-font">django Superstore</a>
+          </div>
+        </div>
+        <div class="card text-white bg-primary mb-3 tech">
+            <div class="card-header"><h3>Databases</h3></div>
+            <div class="card-body">
+              <img class="img-fluid tech-img" src="images/sqlServer.png" alt="Sql Server"/>
+              <img class="img-fluid tech-img" src="images/postgres.png" alt="Postgres"/>
+              <a href="https://my-fomo-app.herokuapp.com/catalog/index" target="_blank" class="btn btn-dark btn-lg btn-card-font">Superstore DB</a>
+            </div>
+        </div>
+        <div class="card text-white bg-dark mb-3 tech">
+          <div class="card-header"><h3>Symantec Workflow</h3></div>
+            <div class="card-body">
+              <img class="img-fluid tech-img" src="images/symantec.png" alt="Symantec"/>
+              <a href="https://support.symantec.com/en_US/article.HOWTO61827.html" target="_blank" class="btn btn-primary btn-lg btn-card-font">Checkout Workflow</a>
+          </div>
+        </div>
+      </div>
+      <hr/>
+      <div>
+        <h2 class="typewrite text-center" data-period="2000" data-type='[ "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+          <span class="wrap"></span>
+        </h2>
+      </div>
+      <hr/>
+    </div>
+  </div>
+      
       <footer id="footer">
           <div class="container">
             <div>

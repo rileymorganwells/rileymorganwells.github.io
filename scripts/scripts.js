@@ -51,7 +51,14 @@ window.onload = function() {
 };
 
 $(document).ready(function(){
-    $('#img-portrait').fadeIn(3000);
+    $('body').fadeIn(1000);
+    if ($(window).width() < 600) { $('#img-portrait').hide(); }
+
+    $(window).on('resize', function(){
+        var win = $(this); //this = window
+        if (win.width() < 600) { $('#img-portrait').hide(); $('#img-portrait-mobile').show(); }
+        if (win.width() > 600) { $('#img-portrait-mobile').hide(); $('#img-portrait').show(); }
+    });
 
     var copyright = 'Riley Wells © ' + new Date().getFullYear();
     document.getElementById('copyright').innerHTML = copyright;

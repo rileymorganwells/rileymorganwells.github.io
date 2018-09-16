@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Riley Wells | Resume</title>
+    <title>Riley Wells | Resume </title>
     <link rel="shortcut icon" type="favicon.ico" href="favicon.ico"/>
     <!-- CSS Links: Bootstrap, Google Fonts, and custom CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -14,20 +14,19 @@
   </head>
   <body>
     <nav id="mynav" class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <div class="container" id="nav-container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
+          <li class="nav-items">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
-          <li class="nav-item" id='brand'>
-              <a class="navbar-brand" href="index.html">
+          <li class="nav-item" id="brand">
+              <a class="navbar-brand mx-auto" href="index.html">
                   <img class="brand-pic" alt="Brand" src="images/brandimage.png">
               </a>
           </li>
@@ -35,150 +34,114 @@
             <a class="nav-link" href="#">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="interests.html">Interests</a>
+            <a class="nav-link" href="passions.html">Passions</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li> -->
         </ul>
       </div>
       </div>
     </nav>
 
-    <div class="page-header">
-      <h1 style="text-align: center; padding-bottom: 20px">My Resume</h1>
-    </div>
-
-  <div class="container">
-    <div class="list-group">
-      <a id="list-group-item" class="list-group-item">
-          <h4 class="list-group-item-heading">Education</h4>
-      </a>
-        <div class="list-group">
-          <div class="list-group-item">
-            <a href="https://marriottschool.byu.edu" target="_blank" id="btn-port-outline" class="btn btn-outline-primary btn-sm">
-              BYU – Marriott School of Business
-            </a>
-            <p style="padding-left: 15px;">
-              <i>Bachelor of Science - Information Systems</br>Minors/Emphases:
-                Business Intelligence/Data Analytics, Nonprofit Management (CNP), Social Innovation</i></br>
-                •	Association for Information Systems, Private Equity/Venture Capital Club (Data Director), Nonprofit Management Club</br>
-                •	Specialized Courses: Database and SQL, Programming in Java/VBA, Web dev with HTML, CSS, and JavaScript</br>
-                •	GPA 3.83 | ACT 32
-            </p>
-          </div>
-        </div>
-    </div>
-
-    <div class="list-group">
-        <a id="list-group-item" class="list-group-item">
-            <h4 class="list-group-item-heading">Experience</h4>
+  <div class="jumbotron" id='portfolio-jumbo'>
+    <div class="container">
+    <h1 class='text-center page-header'>My Resume</h1>
+      <h3 class="list-group-item-heading bg-primary list-group-item">Work Experience</h3>
+      <div class="list-group-item">
+        <a href="http://www.zionsbancorporation.com/" target="_blank" class="btn btn-primary btn-resume">
+          Zions Bancorporation
         </a>
-        <div class="list-group">
-          <div class="list-group-item">
-            <a href="https://universityimpact.com" target="_blank" id="btn-port-outline" class="btn btn-outline-primary btn-sm">
-              University Impact
-            </a>
-            <p style="padding-left: 15px;">
-              <i>Impact Investing Project Manager</i></br>
-              •	Building a multimillion dollar student-run impact investing fund through teaching and developing curriculum for impact investing course and associate training, that has already advanced 65 students through beta course</br>
-              •	Deal sourcing and building relationships with 10+ social ventures and businesses to pitch to our class each semester</br>
-              •	Leading student teams in providing professional due diligence and data driven business analysis reports and services for early growth-stage social businesses and impact funds, having produced three 50+ page investment memos to date
-            </p>
-          </div>
-          <div class="list-group-item">
-            <a href="https://www.instagram.com/byuhabitat/" target="_blank" id="btn-port-outline" class="btn btn-outline-primary btn-sm">
-              Habitat for Humanity
-            </a>
-            <p style="padding-left: 15px;">
-              <i>Executive Director - BYU Chapter</i></br>
-              •	Leading teams of volunteers in 30+ weekly service projects to help low-income families achieve safe, affordable housing</br>
-              •	Hiring and training new program directors to maintain sustainability and autonomy of program over time</br>
-              •	Organizing and publicizing service projects to increase project attendance from 65% to 100% project capacity and increase our volunteer base by 100%, from 50 to 100 unique volunteers per semester
-            </p>
-          </div>
-          <div class="list-group-item">
-            <a href="https://johncurtis.org/" target="_blank" id="btn-port-outline" class="btn btn-outline-primary btn-sm">
-              Curtis for Congress Campaign
-            </a>
-            <p style="padding-left: 15px;">
-              <i>Business Intelligence/Data Analyst Intern</i></br>
-              •	Determined campaign KPIs and compiled all organizational data into aggregated Domo dashboard and reporting platform which reduced data collection/reporting time by 100% and allowed for more efficient campaign decision making</br>
-              •	Facilitated donor/contact data migration from Qualtrics to MailChimp, boosting email-based donation rates by 3%</br>
-              •	Implemented AB/multivariate email and website testing that increased email open rates by 10% and donation rates by 5%
-            </p>
-          </div>
-          <div class="list-group-item">
-            <a href="https://www.media.mit.edu/groups/open-agriculture-openag/overview/" target="_blank" id="btn-port-outline" class="btn btn-outline-primary btn-sm">
-              Fenome
-            </a>
-            <p style="padding-left: 15px;">
-              <i>Business Development Intern</i></br>
-              •	Prepared and presented large-scale greenhouse operational plans and designs for a mass hydroponic system that will feed 200,000 refugees in the Jordanian Azraq refugee camp</br>
-              •	Created financial pricing models for Amazon Fresh project to find hydroponic yields and costs given a surface area</br>
-              •	Conducted a cost-benefit analysis that helped avoid a potential $250,000 in-house lab testing facility and will save the company $1,000s in plant bio testing each month
-            </p>
-          </div>
-          <div class="list-group-item">
-            <a href="http://mentorsinternational.org/" target="_blank" id="btn-port-outline" class="btn btn-outline-primary btn-sm">
-              Mentors International
-            </a>
-            <p style="padding-left: 15px;">
-              <i>Special Projects Intern</i></br>
-              •	Integrated monthly subsidiary financial statements into international microfinance database using Qvinci software</br>
-              •	Applied Google Analytics/AdWords practices to increase use of monthly Google Nonprofit Grant from $3,000 to $5,000</br>
-              •	Determined and implemented 11 unique user roles and permissions for Mifos X platform for all employees which increased information security and decreased common user errors and data reporting mistakes by 25%
-            </p>
-          </div>
+        <p class="p-resume">
+          <ul>
+            <li class="li-position">Automation Developer II<span class="float-right">Salt Lake City, UT (Apr 2018 - Present)</span></li>
+            <li>Automated accounting general ledger reconciliation process, using Symantec Workflow to integrate with 5 major internal systems, creating savings of 2 FTEs, estimated at $100,000 per year</li>
+            <li>Working on a template for an auto-assigning email queue and ticketing system that will be used by 7 different groups within loan operations</li>
+            <li>Helping establish use and process of our new automation tool - Automation Anywhere</li>
+          </ul>
+        </p>
+      </div>
+      <div class="list-group-item">
+        <a href="https://instagram.com/byuhabitat" target="_blank" class="btn btn-primary btn-resume">
+          Habitat for Humanity
+        </a>
+        <p class="p-resume">
+          <ul>
+            <li class="li-position">Executive Director - BYU Chapter<span class="float-right">Provo, UT (Jan 2016 - Present)</span></li>
+            <li>Leading volunteer teams in weekly service projects (30+ to date) to help low-income families achieve safe housing</li>
+            <li>Hiring and training new program directors every semester to maintain sustainability and autonomy of program over time</li>
+            <li>Organizing and publicizing service projects to increase project attendance from 65% to 100% project capacity and increase our volunteer base by 100%, from 50 to 100 unique volunteers per semester</li>
+          </ul>
+        </p>
+      </div>
+      <div class="list-group-item">
+        <a href="https://yserve.byu.edu" target="_blank" class="btn btn-primary btn-resume">
+          BYU Center for Service and Learning
+        </a>
+        <p class="p-resume">
+          <ul>
+            <li class="li-position">Data Analyst<span class="float-right">Provo, UT (Oct 2017 - Apr 2018)</span></li>
+            <li>Automated most aspects of this job by creating several Google Scripts to aid in data collection and by building a custom dashboard to aggregate monthly data from 70+ community service programs using Google Sheets and PivotTables</li>
+            <li>Collaborated with BYU Developers to find and fix several issues with our service app using MySQL and PHP, which resulted in increased data collection and accuracy</li>
+          </ul>
+        </p>
+      </div>
+      <div class="list-group-item">
+        <a href="https://uimpact.vc" target="_blank" class="btn btn-primary btn-resume">
+          University Impact
+        </a>
+        <p class="p-resume">
+          <ul>
+            <li class="li-position">Impact Investing Associate<span class="float-right">Provo, UT (Aug 2016 - Apr 2018)</span></li>
+            <li>Helped build a multimillion dollar student-run impact investing fund through teaching and developing curriculum for impact investing course and associate training, and helped advanced 85 students through beta course</li>
+            <li>Deal sourced and built relationships with 10+ social ventures and businesses to pitch to our class each semester</li>
+            <li>Led student teams in providing professional due diligence and data driven business analysis reports and services for early growth-stage social businesses and impact funds, having produced nine 30+ page in-depth investment memos to date</li>
+          </ul>
+        </p>
+      </div>
+
+      <h3 class="list-group-item-heading list-group-item bg-primary">Education</h3>
+      <div class="list-group">
+        <div class="list-group-item">
+          <a href="https://mism.byu.edu" target="_blank" class="btn btn-primary btn-resume">
+            BYU - Marriott School of Business
+          </a>
+          <p class="p-resume">
+            <ul>
+              <li class="li-education">Master of Information Systems Management<span class="float-right">Provo, UT (Graduation: Apr 2020)</span></li>
+              <li>Minors/Emphases: Computer Science/Development, Nonprofit Management (CNP), Social Innovation and Entrepreneurship</li>
+              <li>Association for Information Systems, Private Equity/Venture Capital Club, Changemakers Club</li>
+              <li>Specialized Courses: OOP – C++, Python, C# | Data – SQL, Tableau | WebDev – HTML, CSS, JavaScript, .NET | Networking - OSI</li>
+              <li>GPA: 3.85 | ACT: 32</li>
+            </ul>
+          </p>
         </div>
-    </div>
+      </div>
 
     <div class="list-group">
-        <a id="list-group-item" class="list-group-item">
-            <h4 class="list-group-item-heading">Skills</h4>
-        </a>
+        <h3 class="list-group-item-heading list-group-item bg-primary">Skills</h3>
         <div class="list-group">
           <a class="list-group-item">
-            <b>Proficient:</b></br>
-            • SQL</br>
-            • Tableau</br>
-            • C#</br>
-            • HTML/CSS</br>
-            • Excel/VBA</br>
-            <b>Experienced:</b></br>
-            • Java</br>
-            • ASP.NET</br>
-            • JavaScript</br>
-            • MVC</br>
-            • Google Analytics/AdWords</br>
+            <ul>
+              <li class="li-position">Proficient:</li>
+              <li>Process Automation: Symantec Workflow, Automation Anywhere, VBA</li>
+              <li>SQL: Microsoft SQL Server, PostgreSQL, MySQL</li>
+              <li>Object Oriented Programming: C++, C#</li>
+              <li>Web Development: HTML, CSS, JavaScript, Bootstrap</li>
+              <li>Version Control/Collaboration: Git, Github</li>
+              <li>Data Analysis: Excel, Tableau</li>
+              <li class="li-position">Experienced:</li>
+              <li>Programming Languages: Java, Python</li>
+              <li>Web Frameworks: django, ASP.NET, Angular, Vue</li>
+              <li>Machine Learning: Azure Machine Learning Studio</li>
+            </ul>
           </a>
         </div>
     </div>
-
-    <div class="list-group">
-        <a id="list-group-item" class="list-group-item">
-            <h4 class="list-group-item-heading">Awards</h4>
-        </a>
-        <div class="list-group">
-          <a class="list-group-item"><b>Ballard Scholar for Social Innovation:</b> for creating all necessary requirements
-             including classwork, design-thinking methodologies, and out-of-class projects</a>
-          <a class="list-group-item"><b>Certified Nonprofit Professional (CNP):</b> for working 300 hours with nonprofits,
-             attending national nonprofit conference, and completing required coursework and caseload</a>
-          <a class="list-group-item"><b>President's Service Award:</b> for completing 500 hours of community service in one year</a>
-          <a class="list-group-item"><b>National Merit Commendation:</b> for scoring in the 92nd percentile on the NMSQT</a>
-        </div>
-    </div>
-
-    <div style="padding-bottom: 20px;" class="list-group">
-        <a id="list-group-item" class="list-group-item">
-            <h4 class="list-group-item-heading">References</h4>
-        </a>
-        <div class="list-group">
-          <a class="list-group-item">Available on request</a>
-        </div>
-    </div>
-
+  </div>
 </div>
 
 <footer id="footer">
-  <hr />
     <div class="container">
       <div>
         Riley Wells ©

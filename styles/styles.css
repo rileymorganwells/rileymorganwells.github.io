@@ -75,12 +75,6 @@ h3, h4 {
   font-weight: bold;
 }
 
-#list-group-item {
-  background-color: #59BBBF;
-  color: white;
-  font-weight: bold;
-}
-
 #iframe-goals {
   height: 615px;
   width: 1010px;
@@ -127,8 +121,8 @@ div.container {
 }
 
 a.nav-link {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 65px;
+  margin-right: 65px;
   font-size: 30px;
 }
 
@@ -268,4 +262,39 @@ nav {
 
 body {
   display: none;
+}
+
+.page-header {
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.list-group-item-heading {
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.btn-resume {
+  font-family: 'Righteous';
+}
+
+.p-resume {
+  padding-left: 15px;
+  margin-bottom: 0px;
+}
+
+.li-position {
+  font-weight: bold;
+  font-style: italic;
+  list-style: none;
+  margin-left: -20px;
+  padding: 5px;
+}
+
+.li-education {
+  font-weight: bold;
+  font-style: italic;
+  list-style: none;
+  margin-left: -20px;
 }
